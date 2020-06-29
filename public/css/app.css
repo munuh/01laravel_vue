@@ -28489,6 +28489,22 @@ a.text-muted:hover {
   border-color: #dee2e6;
 }@charset "UTF-8";
 
+.yellow {
+  color: #ffed4a;
+}
+
+.green {
+  color: #38c172;
+}
+
+.blue {
+  color: #3490dc;
+}
+
+.red {
+  color: #e3342f;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -45462,5 +45478,9 @@ readers do not read off random characters that represent icons */
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.router-link-active {
+  background-color: #007bff !important;
 }
 

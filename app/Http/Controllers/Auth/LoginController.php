@@ -36,5 +36,6 @@ class LoginController extends Controller
     {
         //dd(phpinfo());
         $this->middleware('guest')->except('logout');
+       
     }
 }
